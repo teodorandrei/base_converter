@@ -103,20 +103,20 @@ def hexadecimal_to_binary(x):
 match choice.lower():
     case "1":
         number = input("Decimal to binary selected, please input your number: ")
-        print(decimal_to_binary(int(number)))
+        print(f"Input (base10): {str(number)} | Output (base2): {str(decimal_to_binary(int(number)))}")
     case "2":
         number = input("Binary to decimal selected, please input your number: ")
-        print(binary_to_decimal(int(number)))
+        print(f"Input (base2): {str(number)} | Output (base10): {str(binary_to_decimal(int(number)))}")
     case "3":
         number = input("Octal to decimal selected, please input your number: ")
-        print(octal_to_decimal(int(number)))
+        print(f"Input (base8): {str(number)} | Output (base10): {str(octal_to_decimal(int(number)))}")
     case "4":
         number = input("Hexadecimal to decimal selected, please input your number: ")
-        print(hexadecimal_to_decimal(number))
+        print(f"Input (base16): {str(number)} | Output (base10): {str(hexadecimal_to_decimal(str(number)))}")
     case "5":
-        number = input("Octal to binary selectedr, please input your number: ")
-        print(octal_to_binary(int(number)))
+        number = input("Octal to binary selected, please input your number: ")
+        print(f"Input (base8): {str(number)} | Output (base2): {str(octal_to_binary(int(number)))}")
     case "6":
         number = input("Hexadecimal to binary selected, please input your number: ")
-        print(hexadecimal_to_decimal(number))
+        print(f"Input (base16): {str(number)} | Output (base2): {str(hexadecimal_to_binary(str(number)))}")
 
