@@ -1,7 +1,7 @@
 import math
 
 # Decimal, binary, octal & hexadecimal converter
-# github.com/teodorandrei
+# github.com/teodorandrei yeaaa
 
 
 choice = input("Choose your converter: \n(1) Decimal to binary\n(2) Binary to decimal\n(3) Octal to decimal\n(4) Hexadecimal to decimal\n(5) Octal to binary\n(6) Hexadecimal to binary\n> Your choice: ")
@@ -10,7 +10,7 @@ choice = input("Choose your converter: \n(1) Decimal to binary\n(2) Binary to de
 
 def decimal_to_binary(x):
     y = ""
-    while x>1:
+    while x>1: 
         if x % 2 == 0:
             y += "0"
         elif x % 2 == 1:
